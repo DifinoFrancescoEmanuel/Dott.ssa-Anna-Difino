@@ -1,0 +1,55 @@
+@import 'bootstrap';
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Charmonman&display=swap');
+
+
+body {
+
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('/public/img/banner.jpg');
+    background-size: cover;
+}
+
+.box2 {
+    margin-top: 4%;
+
+}
+
+.card_cust {
+
+
+    border-radius: 5%;
+    transition: transform .2s;
+
+}
+
+.card_cust:hover {
+    transform: scale(1.05);
+    background-color: #FA9146;
+}
+
+.name {
+    font-family: 'Charmonman', cursive;
+    font-size: 30px;
+
+
+}
+
+.banner {
+    font-family: 'Charmonman', cursive;
+    background-color: #FA9146;
+}
+
+
+.nav_cust {
+    background-size: cover;
+    background-image: url('/public/img/banner.jpg');
+}
+
+/* Rimuove la sottolineatura solo dai link con classe "no-underline" */
+a.no-underline {
+    text-decoration: none;
+}
