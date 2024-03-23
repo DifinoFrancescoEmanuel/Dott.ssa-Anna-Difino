@@ -13,13 +13,13 @@
 
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
 
     <x-nav />
-
-    <div class="box2 pb-5">
+    <div class="flex-grow-1 box2 pb-5">
         {{ $slot }}
     </div>
+
 
     <x-footer />
 
