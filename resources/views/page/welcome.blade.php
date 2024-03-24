@@ -5,7 +5,8 @@
     {{-- <img class="img-fluid banner-img opacity-25 " src="{{ asset('img/banner.jpg') }}" alt="img non disponibile"> --}}
 
 
-    <div class="text-center d-flex flex-column flex-lg-row justify-content-between banner align-items-center pt-5">
+    <div
+        class="text-center d-flex flex-column flex-lg-row justify-content-between banner align-items-center pt-5 pt-lg-0">
 
         <div class=" col-12 col-lg-4 ">
             <img src="{{ asset('img/logo.png') }}" class="img-fluid" alt="Immagine" style="max-height: 30%;">
@@ -16,7 +17,7 @@
             <p style="font-size: 15px;">Psicologa dello Sviluppo e Musicista</p>
         </div>
         <div class="col-4 d-none d-lg-block ">
-            <img src="{{ asset('img/figura.png') }}" class="img-fluid" style="max-height: 400px;" alt="Immagine">
+            <img src="{{ asset('img/anna2.jpg') }}" class="img-fluid" style="max-height: ;" alt="Immagine">
         </div>
 
     </div>
